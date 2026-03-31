@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+/* Header */
+header {
+    /* text-align: center; */
+    display: flex;
+    gap: 29%;
+    padding: 20px;
+    background: #020617;
+    align-items: center;
+}
+
+header img {
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #38bdf8;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+}
+
+/* Marquee Images */
+marquee{
+      background:url(/images/land1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+marquee img {
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: transform 0.3s;
+}
+
+marquee img:hover {
+    transform: scale(1.05);
+}
+
+/* Latest Movies Title */
+.content h1 {
+    margin: 20px 0;
+    color: #facc15;
+}
+
+/* Movie Posters */
+.content a {
+    text-decoration: none;
+}
+
+.content img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.content img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #38bdf8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    margin-top: 20px;
+    color: gray;
+}
